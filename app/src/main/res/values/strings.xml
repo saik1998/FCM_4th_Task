@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FCM_4th_Task</string>
+
+
+    <string name="text1">Notification to All</string>
+    <string name="text2">title</string>
+    <string name="text3">body</string>
+    <string name="text4">Send</string>
+
+    <string name="signin">SignIN</string>
+
+
+    <string name="default_notification_channel_id">fcm_default_channelID</string>
+    <string name="msg_token_fmt">FCM registration token %s</string>
+    <string name="server_key">"AAAAgpewQpg:APA91bGgY24SqaVq773-WkI_FEO--qOs1x73p8mwraBg5Bm37Bb-AHWkQvyNCm_8pFq08hJxn76zkzvW-E2DE-oIp7BfAhl9KYakniu0eWUnp6K-reFcRXjj76d_TfuIPzWAhPsobImJ"</string>
+</resources>

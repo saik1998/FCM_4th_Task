@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notification.NotificationActivity">
+
+    <TextView
+
+        android:text="@string/text1"
+        style="@style/Text_view1"/>
+
+    <EditText
+        style="@style/Edit_text1"
+        android:hint="@string/text2"
+        android:inputType="text"
+        android:id="@+id/title_edt"/>
+    <EditText
+        style="@style/Edit_text"
+        android:hint="@string/text3"
+        android:inputType="text"
+        android:id="@+id/body_edt"/>
+    <Button
+
+        android:text="@string/text4"
+       style="@style/Button"
+        android:onClick="sendAll"/>
+
+</LinearLayout>
