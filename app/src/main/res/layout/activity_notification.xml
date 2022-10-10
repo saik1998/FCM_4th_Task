@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".notification.NotificationActivity">
+    
+
 
     <TextView
-
         android:text="@string/text1"
         style="@style/Text_view1"/>
 
@@ -17,13 +18,16 @@
         android:hint="@string/text2"
         android:inputType="text"
         android:id="@+id/title_edt"/>
+    
+    
     <EditText
         style="@style/Edit_text"
         android:hint="@string/text3"
         android:inputType="text"
         android:id="@+id/body_edt"/>
+    
+    
     <Button
-
         android:text="@string/text4"
        style="@style/Button"
         android:onClick="sendAll"/>

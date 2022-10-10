@@ -75,7 +75,7 @@ public class NotificationActivity extends AppCompatActivity {
                             msg = "Subscribe failed";
                         }
                         Log.d("TAG", msg);
-                        Toast.makeText(NotificationActivity.this, msg, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(NotificationActivity.this, msg, Toast.LENGTH_SHORT).show();
                     }
                 });
     }
